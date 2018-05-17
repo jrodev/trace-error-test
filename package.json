@@ -1,0 +1,38 @@
+{
+  "name": "trace-error-test",
+  "version": "1.0.0",
+  "description": "Probando source maps para deteccion de errores dentro de archivos minificados y unificados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrodev/trace-error-test.git"
+  },
+  "keywords": [
+    "stacktrace",
+    "sourcemap",
+    "logerror"
+  ],
+  "author": "jrodev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrodev/trace-error-test/issues"
+  },
+  "homepage": "https://github.com/jrodev/trace-error-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  }
+}
